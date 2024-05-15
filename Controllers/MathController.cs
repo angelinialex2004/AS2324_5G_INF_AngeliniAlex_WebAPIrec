@@ -18,6 +18,7 @@ namespace AS2324_5G_INF_AngeliniAlex_WebAPIrec.Controllers
             {
                 message = "Temperatura in farenheit:",
                 result = (celsius * 9 / 5) + 32,
+                status = "OK"
             });
         }
 
@@ -28,6 +29,7 @@ namespace AS2324_5G_INF_AngeliniAlex_WebAPIrec.Controllers
             {
                 message = "Il volume del cilindro è:",
                 result = Math.PI * (radius * radius) * height,
+                status = "OK"
             });
         }
     }
